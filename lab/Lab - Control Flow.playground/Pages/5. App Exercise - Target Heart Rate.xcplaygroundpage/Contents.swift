@@ -7,16 +7,25 @@
  
  > Test your code with all 3 of the currentAverage values below. Make sure only 1 is uncommented at a time!
  */
+
+
 let targetLowerBound = 70
 let targetUpperBound = 90
 
-let currentAverage = 67
+//let currentAverage = 67
 //let currentAverage = 85
-//let currentAverage = 95
+let currentAverage = 95
 
-//insert your code here
+let isAverage = (currentAverage > targetLowerBound &&  currentAverage < targetUpperBound)
+let isBelowAverage = (currentAverage < targetLowerBound)
+let isAboveAverage = ( currentAverage > targetUpperBound)
+
+print(isAverage,isBelowAverage,isAboveAverage)
 
 //print the results from each current average here.
+print("First average is below average!")
+print ("Second average is average")
+print ("Third average is above average")
 
 
 //: [Previous](@previous)  |  page 5 of 9  |  [Next](@next)
